@@ -1,0 +1,94 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset=utf-8>
+		<title>Calendrier | Family amusement parc</title>
+		<script src="js/site.js"></script>
+		<link rel="stylesheet" type="text/css" href="CSS/site.css">
+	</head>
+	<body>
+		<header>
+		<div class="titreSite">
+		<h1>FAMILY AMUSEMENT PARK</h1>
+		</div>
+				<div class="menu">
+				<a href="index.html" class="bouton"><h2>Accueil</h2></a>
+				<a href="attractions.html" class="bouton"><h2>Attractions</h2></a>
+				<a href="calendrier.html" class="bouton"><h2>Calendrier</h2></a>
+				<a href="réservation.html" class="bouton"><h2>Réservation</h2></a>
+			</div>	
+		</header>
+		<div class="calendrier">
+		<section>
+			<h1 id="mois" class="mois">Décembre 2020</h1>
+		</section>	
+		<section id="ouverture">
+			<button onclick="moisPrecedent(calendrier,mois)" class="btcal">-</button><button onclick="moisSuivant(calendrier,mois)" class="btcal">+</button>
+			
+			<table>
+				<tr>
+					<th scope="col">Lundi</th>
+					<th scope="col">Mardi</th><th scope="col">Mercredi</th>
+					<th scope="col">Jeudi</th><th scope="col">Vendredi</th>
+					<th scope="col">Samedi</th><th scope="col">Dimanche</th>
+				</tr>
+				<tr>
+					<td class="clair">30</td>
+					<td class="fermeture">1</td>
+					<td class="fermeture">2</td>
+					<td class="fermeture">3</td>
+					<td class="fermeture">4</td>
+					<td class="fermeture">5</td>
+					<td class="fermeture">6</td>
+				</tr>
+				<tr>
+					<td class="fermeture">7</td>
+					<td class="fermeture">8</td>
+					<td class="fermeture">9</td>
+					<td class="fermeture">10</td>
+					<td class="fermeture">11</td>
+					<td class="fermeture">12</td>
+					<td class="fermeture">13</td>
+				</tr>
+				<tr>
+					<td class="fermeture">14</td>
+					<td class="fermeture">15</td>
+					<td class="fermeture">16</td>
+					<td class="fermeture">17</td>
+					<td class="fermeture">18</td>
+					<td class="fermeture">19</td>
+					<td class="fermeture">20</td>
+				</tr>
+				<tr>
+					<td class="fermeture">21</td>
+					<td class="fermeture">22</td>
+					<td class="fermeture">23</td>
+					<td class="fermeture">24</td>
+					<td class="fermeture">25</td>
+					<td class="fermeture">26</td>
+					<td class="fermeture">27</td>
+				</tr>
+				<tr>
+					<td class="fermeture">28</td>
+					<td class="fermeture">29</td>
+					<td class="fermeture">30</td>
+					<td class="fermeture">31</td>
+					<td class="clair">1</td>
+					<td class="clair">2</td>
+					<td class="clair">3</td>
+				</tr>
+			</table>		
+		</section>
+		<section>
+			<h3 class="mois">Echelle :</h3>
+			<span class="ouverture">vert</span> : le parc est ouvert <strong>|</strong>
+			<span class="fermeture">rouge</span> : le parc est fermé
+		</section>
+		</div>
+		<footer class="c">
+		<h5>FAMILY AMUSEMENT PARK : </h5>
+			Adresse : n°1 rue du parc 0000, Ville du parc <br>
+			<span class="espace">Téléphone : 0400 00 00 00 </span>© 2020
+		</footer>
+	</body>
+</html>

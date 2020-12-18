@@ -1,0 +1,75 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset=utf-8>
+		<title>Résevation | Family amusement parc</title>
+		<script src="js/site.js"></script>
+		<link rel="stylesheet" type="text/css" href="CSS/site.css">
+	</head>
+	<body>
+		<header>
+			<div class="titreSite">
+				<h1>FAMILY AMUSEMENT PARK</h1>
+			</div>
+			<div class="menu">
+				<a href="index.html" class="bouton"><h2>Accueil</h2></a>
+				<a href="attractions.html" class="bouton"><h2>Attractions</h2></a>
+				<a href="calendrier.html" class="bouton"><h2>Calendrier</h2></a>
+				<a href="réservation.html" class="bouton"><h2>Réservation</h2></a>
+			</div>
+		</header>
+		<section>
+				<img class="image2" src="image/mainImage.jpg">
+		</section>
+			<div class="offre">
+		<section class="reservation">
+			<form action=# onSubmit="return ajoutReservation(this,arrayReservation);">
+			<h1 class="mois">Commande :</h1>
+				<label for="nom">Nom :</label>
+				<input type="text"  id="nom" name="nom" placeholder="nom" class="btform" required>
+				<br>
+				<label for="enfant">nombre de ticket enfant (5 Euros):</label>
+				<input type="number" id="enfant" name="enfant"min="0"placeholder="0" class="btform" required>
+				<br>
+				<label for="adulte">nombre de ticket adulte (20 Euros):</label>
+				<input type="number" id="adulte" name="adulte" min="0"placeholder="0" class="btform" required> 
+				<br>
+				<label for="etudiant">nombre de ticket etudiant (15 Euros):</label>
+				<input type="number" id="etudiant" name="etudiant" min="0"placeholder="0" class="btform" required>
+				<br>
+				<label for="senior">nombre de ticket senior (15 Euros):</label>
+				<input type="number" id="senior" name="senior" min="0"placeholder="0" class="btform" required>
+				<br>
+				<label for="PremiumTicket">nombre de Premium Ticket (30 Euros):</label>
+				<input type="number" id="PremiumTicket" name="PremiumTicket" min="0"placeholder="0" class="btform" required>
+				<br>
+				<label for="PremiumPass">nombre de Premium Pass (159 Euros):</label>
+				<input type="number" id="PremiumPass" name="PremiumPass" min="0"placeholder="0" class="btform" required>
+				<br>
+				<input type="reset" class="btform">
+				<input type="submit" class="btform">
+				<br>
+			</form>
+		</section>
+		<section class="offre1">
+			<br>
+			<h1>Premium ticket</h1>
+			<h3>Ticket valide une journée</h3><br>
+			<h2>tarif : 30€</h2><br>			
+		</section>
+		<section class="offre2">
+			<br>
+			<h1>Premium Pass</h1>
+			<h3>offre valable jusqu'au 1/12/2021</h3><br>
+			<h2>tarif : 159€</h2>			
+		</section>
+		</div>
+		<section id="commande" class="commande">
+		</section>
+		<footer class="a">
+		<h5>FAMILY AMUSEMENT PARK : </h5>
+			Adresse : n°1 rue du parc 0000, Ville du parc <br>
+			<span class="espace">Téléphone : 0400 00 00 00 </span>© 2020
+		</footer>
+	</body>
+</html>

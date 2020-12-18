@@ -1,0 +1,82 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset=utf-8>
+		<title>Attractions | Family amusement parc</title>
+		<script src="js/site.js"></script>
+		<link rel="stylesheet" type="text/css" href="CSS/site.css">
+	</head>
+	<body>
+		<header>
+		<div class="titreSite">
+		<h1>FAMILY AMUSEMENT PARK</h1>
+		</div>
+			<div class="menu">
+				<a href="index.html" class="bouton"><h2>Accueil</h2></a>
+				<a href="attractions.html" class="bouton"><h2>Attractions</h2></a>
+				<a href="calendrier.html" class="bouton"><h2>Calendrier</h2></a>
+				<a href="réservation.html" class="bouton"><h2>Réservation</h2></a>
+			</div>
+		</header>
+		<div class="bordure">
+		<section class="form"> 
+			<form action=# onSubmit="return changerType(this);">
+				<select id="type">
+					<option>Toutes les attractions</option>
+					<option>Adulte</option>
+					<option>Enfant</option>
+					<option>Famille</option>
+				</select>
+				<input type="submit" class="envoyer" value="Montrer">
+			</form>
+			<button onclick="return trierDecroissant(attraction);" class="envoyer">Trier la taille par ordre décroissant </button>
+			<button onclick="return trierCroissant(attraction);" class="envoyer">Trier la taille par ordre croissant </button>
+		</section>
+		<section id="resultat">
+			<div class="attr1">
+			<figure>
+			<figcaption class="textimg">Montagne russe à sensation forte pour adulte</figcaption>
+			<img src="image/attraction1.jpg" class="img"></figure>
+			<figure>
+			<figcaption class="textimg">Montagne russe avec inversion pour adulte</figcaption>
+			<img src="image/attraction2.jpg" class="img"></figure>
+			<figure>
+			<figcaption class="textimg">Tour de chute pour adulte</figcaption>
+			<img src="image/attraction3.jpg" class="img"></figure>
+			</div>
+			<div class="attr1">
+			<figure>
+			<figcaption class='textimg'>Chaises volantes</figcaption>
+			<img src='image/attraction4.jpg' class='img'></figure>
+			<figure>
+			<figcaption class='textimg'>Grande roue</figcaption>
+			<img src='image/attraction5.jpg' class='img'></figure>
+			<figure>
+			<figcaption class='textimg'>Montagne russe familiale</figcaption>
+			<img src='image/attraction6.jpg' class='img'></figure>
+			</div>
+			<div class="attr1">
+			<figure>
+			<figcaption class='textimg'>Montagne russe pour enfant</figcaption>
+			<img src='image/attraction7.jpg' class='img'></figure>
+			<figure>
+			<figcaption class='textimg'>Manège sur l'eau</figcaption>
+			<img src='image/attraction8.jpg' class='img'></figure>
+			<figure>
+			<figcaption class='textimg'>Carrousel</figcaption>
+			<img src='image/attraction9.jpg' class='img'></figure>
+			</div>
+		</section>
+		</div>
+		<footer class="a">
+			<h5>FAMILY AMUSEMENT PARK : </h5>
+			Adresse : n°1 rue du parc 0000, Ville du parc <br>
+			<span class="espace">Téléphone : 0400 00 00 00 </span>© 2020
+		</footer>
+	</body>
+</html>
+
+
+
+
+

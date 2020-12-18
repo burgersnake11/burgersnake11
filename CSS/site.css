@@ -1,0 +1,185 @@
+body{
+	background-image:url(../image/fond2.jpg);
+	background-size:100%;	
+}
+.bouton{
+	height:50px;
+	width:25%;
+	background-image:url(../image/dégradéRouge.jpg);
+	border:5px solid black ;
+	text-decoration:none;
+}
+a:link{
+	color:black;
+}	
+a:visited{
+	color:black;
+}
+a:hover{
+	color:black;
+}	
+a:active{
+	color:black;
+}
+.reservation{
+	border:5px solid black ;
+	background-image:url(../image/dégradéRouge.jpg);		
+	width:25%;
+	height:100%;
+	margin:0 12.5% 0 0;
+	font-size:100%;	
+	padding:6.4px;
+}
+header{
+	margin:3%;
+}
+.image1{
+	border:10px solid black ;
+	margin:0% 29% 1% 29%;
+	width:40%;
+	height:40%;
+}
+.image2{
+	border:10px solid black ;
+	margin:0% 25% 1% 32.3%;
+	width:35%;
+	height:35%;
+}
+.offre1{
+	border:5px solid black ;
+	background-image:url(../image/dégradéRouge.jpg);
+	background-size:100%;
+	width:25%;
+	margin:0 12.5% 0 0;
+	text-align:center;
+	font-size:100%;
+}
+.offre2{
+	border:5px solid black ;
+	background-image:url(../image/dégradéRouge.jpg);
+	background-size:100%;
+	width:25%;
+	text-align:center;
+	font-size:100%;
+}
+.commande{
+	border:5px solid black ;
+	width:90%;
+	background-image:url(../image/dégradéRouge.jpg);
+	font-size:20px;
+	margin:2% 0% 0% 4.8%;
+}
+.mois{
+	text-decoration:underline;
+}
+.clair{
+	color:gray;
+}
+.ouverture{
+	background-color:lightgreen;
+}
+.fermeture{
+	background-color:lightcoral;
+}
+.offre{
+	display:flex;
+	justify-content:center;
+	width:98.7%;
+	height:auto;
+	margin:0 0 0 1%;
+}
+.menu{	
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	width:95%;
+	height:25%;	
+	text-align:center;
+}
+.titreSite{
+	text-align:center;
+	text-decoration:underline;
+	font-size:20px;
+	
+}
+.calendrier{
+	border:5px solid black;
+	padding:15px 6% 15px 6%;
+	background-color:#EECCC4;
+	margin:0% 33% 0% 33%;
+	width:auto;
+}
+.btcal{
+	height:40px;
+	width:80px;
+	background-image:url(../image/dégradéRouge.jpg);
+	margin:5px 50px 5px 20px;
+}
+.btform{
+	background-image:url(../image/fond2.jpg);
+	width:28%;
+}
+.img{
+	border:5px solid black;
+	height:auto;
+	width:auto;
+	max-height:15em;
+	max-width:15em;
+}
+.bordure{
+	background-image:url(../image/dégradéRouge.jpg);
+	background-size:100%;
+	border:5px solid black;
+	width:75%;
+	margin:5% 12.5% 0 12.5%;
+	font-size:100%;
+}
+.textimg{
+	font-weight:bolder;
+	height:4em;
+	width:15.4em;
+	background-image:url(../image/fond2.jpg);
+	border:2px solid black;
+	text-align:center;
+}
+.envoyer{
+	background-image:url(../image/dégradéBlanc.jpg);
+	width:45%;
+	margin:5px;
+}
+.form{
+	padding:5px 10px 5px 10px;
+	background-image:url(../image/fond2.jpg);
+	border:3px solid black;
+	margin:5px 37% 5px 37%;
+	background-size:100%;
+	width:35%;
+}
+.attr1{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+.trier{	
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+.espace{
+	margin:0 85% 0 0;
+}
+.a{
+	border:3px solid black;
+	margin:10px;
+	padding:0 10px 10px 10px;
+}
+.b{
+	border:3px solid black;
+	margin:5% 10px 10px 10px;
+	padding:0 10px 10px 10px;
+}
+.c{
+	border:3px solid black;
+	margin:7% 10px 10px 10px;
+	padding:0 10px 10px 10px;
+}
